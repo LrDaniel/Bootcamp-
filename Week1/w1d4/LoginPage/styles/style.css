@@ -1,0 +1,127 @@
+body, html {
+    margin:0;
+    padding:0;
+    height: 100%;
+    width:100%;
+    font-family:Acme;
+    min-width:700px;
+  }
+  
+  .splitdiv{
+    height:100%;
+    width:50%;
+  }
+  
+  
+  #leftdiv{
+    float:left;
+    background-image: url(/img/ice.jpeg);
+    background-position: center;
+  }
+  
+  #leftdivcard{
+    margin:0 auto;
+    width:50%;
+    background-color:rgb(255, 255, 255);
+    margin-top: 50vh; 
+    transform: translateY(-50%);
+    border-radius:10px
+  }
+  
+  #leftbutton{
+      background-color:#51ace9;
+      border-radius:5px;
+      color:hsl(0, 0%, 98%);
+  }
+  
+  
+  #rightdiv{
+    float:right;
+    background-image: url(/img/fire.jpeg);
+    background-position: center;
+  }
+  
+  #rightdivcard{
+    margin:0 auto;
+    width:50%;
+    margin-top: 50vh;
+    transform: translateY(-50%);
+    background-image: linear-gradient(to right, white 33%,  rgba(255,255,255,0) 0%);
+    background-position: bottom;
+    background-size: 20px 2px;
+    background-repeat: repeat-x;
+  }
+  
+  #rightbutton{
+      background-color:#FFFFFF;
+      border-radius:5px;
+      color:#ff2600;
+  }
+  
+  h1{
+    font-family:Lobster;
+    color:#4e94cd
+  }
+  
+  input{
+    font-family:Acme;
+    font-size:16px;
+  }
+  
+  input{
+    width:85%;
+    height:40px;
+    padding:10px;
+    margin-left:2%;
+    margin-right:2%;
+    margin-top:10px;
+    margin-bottom:10px;
+    display:inline-block;
+    background-color:#FAFAFA;
+    border:none;
+  }
+  
+  input:focus {
+      outline: none !important;
+      border:1px solid #a2c1fa;
+      box-shadow: 0 0 5px #66a9fa;
+  }
+  
+  button{
+    outline: none !important;
+    font-family:Lobster;
+    margin-bottom:15px;
+    border:none;
+    font-size:20px;
+    padding:8px;
+    padding-left:20px;
+    padding-right:20px;
+  }
+  
+  
+  .ripple {
+    background-position: center;
+    transition: background 0.8s;
+  }
+  .ripple:hover {
+    background: #6ca7d8 radial-gradient(circle, transparent 1%, #f88d8d 1%) center/15000%;
+  }
+  .ripple:active {
+    background-size: 100%;
+    transition: background 0s;
+  }
+  
+  .ripple2 {
+    background-position: center;
+    transition: background 0.8s;
+  }
+  .ripple2:hover {
+    background: #47a7f5 radial-gradient(circle, transparent 1%, #00b7ff 1%) center/15000%;
+  }
+  .ripple2:active {
+    background-color: #2d70d4;
+    background-size: 100%;
+    transition: background 0s;
+  }
+  
+  
