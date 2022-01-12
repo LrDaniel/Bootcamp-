@@ -14,7 +14,7 @@ let watchedSeries = ["black mirror", "money heist", "the big bang theory"]
 let watchedSeriesLength = 3
 
 // exercise 2 part 1.2
-let myWatchedSeries = ("black mirror , money heist and the big bang theory")
+let myWatchedSeries = ("black mirror , money heist , and the big bang theory")
 
 // exercise 2 part 1.3
 console.log ("I watched" , watchedSeriesLength , "series : " , myWatchedSeries)
