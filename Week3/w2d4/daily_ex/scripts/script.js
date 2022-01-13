@@ -9,8 +9,7 @@ if(wordBad>wordNot){
 
     let wordSwitch = sentence.slice(wordNot,wordBad+3)
     sentence = sentence.replace(wordSwitch , `amazing`)
-
 }
 
 console.log(sentence)
-console.log(wordSwitch)
+console.log()
