@@ -11,7 +11,7 @@ console.log ("im eating", favFood , "everyday at" , favMeal)
 
 let watchedSeries = ["black mirror", "money heist", "the big bang theory"]
 
-let watchedSeriesLength = 3
+let watchedSeriesLength = watchedSeries.length
 
 // exercise 2 part 1.2
 let myWatchedSeries = ("black mirror , money heist , and the big bang theory")
