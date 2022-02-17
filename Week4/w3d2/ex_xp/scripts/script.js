@@ -45,21 +45,21 @@
         //exercise 3
 
 
-let isDivisible = () => {
-    let sum = [];
-    const reducer = (previousValue, currentValue) => previousValue + currentValue;
+// let isDivisible = () => {
+//     let sum = [];
+//     const reducer = (previousValue, currentValue) => previousValue + currentValue;
 
-    for (let index = 1; index <= 500; index++) {
-        if (index % 23 === 0) {
-            console.log(index)
-            sum.push(index);
-        }
-    }
-    console.log(`The sum is ${sum.reduce(reducer)}`)
-    return sum
-}
+//     for (let index = 1; index <= 500; index++) {
+//         if (index % 23 === 0) {
+//             console.log(index)
+//             sum.push(index);
+//         }
+//     }
+//     console.log(`The sum is ${sum.reduce(reducer)}`)
+//     return sum
+// }
 
-isDivisible();
+// isDivisible();
 
 
 // //exercise 4
@@ -95,16 +95,33 @@ isDivisible();
 //DO NOW KNOW HOW TO DO THIS 
 
 //exercise 5
-let changeEnough = (itemPrice, amountOfChange) => {
-    change = [];
-    for (let i = 0; i < 1; i++) {
-        change.push(amountOfChange[0] * .25, amountOfChange[1] * .1, amountOfChange[2] * .05, amountOfChange[3] * .01)
-        const reducer = (previousValue, currentValue) => previousValue + currentValue;
-        totalChange = change.reduce(reducer);
-        if (itemPrice < totalChange) {
-            return true
-        } else
-            return false
+// let changeEnough = (itemPrice, amountOfChange) => {
+//     change = [];
+//     for (let i = 0; i < 1; i++) {
+//         change.push(amountOfChange[0] * .25, amountOfChange[1] * .1, amountOfChange[2] * .05, amountOfChange[3] * .01)
+//         const reducer = (previousValue, currentValue) => previousValue + currentValue;
+//         totalChange = change.reduce(reducer);
+//         if (itemPrice < totalChange) {
+//             return true
+//         } else
+//             return false
+//     }
+// };
+// changeEnough(4, 6)
+
+
+
+//exercise 6
+
+function hotelCost(){
+   
+   let numOfNights = ""
+    do {
+        numOfNights= prompt(`Number of nights:`);    
+    }while (numOfNights < 1){
+        alert(`try again`)
+        
     }
-};
-changeEnough(4, 6)
+}
+
+hotelCost();
