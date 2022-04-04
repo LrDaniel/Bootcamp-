@@ -1,0 +1,7 @@
+#fadeout {
+    opacity: 1;
+    transition: 1s opacity;
+    text-align: center;
+    font-size:32px;
+  }
+  

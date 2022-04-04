@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@800&family=PT+Sans+Narrow:wght@700&display=swap');
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image:  url(/img/worldmap2.jpeg);
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-size: cover;
+
+}
+
+header {
+    display: flex;
+}
+
+.bigtitle {
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+    color: rgb(28,34,43);
+    font-size: 20px;
+    
+}
+
+.stats {
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 20px 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.stats h2 {
+ color:rgb(85,99,194);
+ font-size: 35px;
+ font-weight: bold;
+}
+
+.statp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.cards {
+   display: flex;
+   width: 90%;
+   margin-right: 5%;
+   margin-left: 5%;
+   justify-content: space-between;
+   height: 40vh;
+   margin-bottom: 3%;
+   margin-top: 3%;
+   position: relative;    
+}
+
+.card {
+    text-align: center;
+    padding:40px 40px;
+}
+
+#middle {
+    margin-top:40px;
+}
+
+
+
+.bottomcard1 {
+    background-color:rgba(251,139,138, 0.6);
+    padding:10px;
+    width:100%;
+    padding-top: 70px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.bottomcard2 {
+    background-color:rgba(92,106,196 , 0.6);
+    padding:10px;
+    width:100%;
+    padding-top: 70px;
+    padding-bottom: 10px;
+}
+
+.bottomcard3 { 
+    background-color:rgba(71,193,191 , 0.6);
+    padding:10px;
+    width:100%;
+    padding-top: 70px;
+    padding-bottom: 10px;
+}
+
+#bottomcard p{
+    padding-top:10px;  
+}
+
+h3 {
+    font-size: 26px;
+}
+
+
+.topcard {
+    width:100%;
+    background-color: rgba(190, 190, 190 , 0.3);
+    justify-content: center;
+    padding: 100px 40px;
+}
+
+.comment {
+    opacity: 1;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    position:absolute;
+    z-index: 1;
+    display: block;
+    border: 3px solid rgb(77, 77, 77);
+    border-radius:50%;
+    margin-top: -50px;
+}
+
+
+.img2 {
+    margin-left: 128px;
+    margin-right: 100px;
+}
+
+.img1 {
+    margin-left: 150px;
+    margin-right: 80px;
+}
+
+.img3 {
+    margin-left: 110px;
+    margin-right: 180px;
+}
