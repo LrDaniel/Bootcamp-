@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class BuggyCounter extends Component {
+class ErrorBoundary extends Component {
   state = { error: null, errorInfo: null };
 
   componentDidCatch(error, errorInfo) {
@@ -14,4 +14,4 @@ class BuggyCounter extends Component {
   }
 }
 
-export default BuggyCounter;
+export default ErrorBoundary;
