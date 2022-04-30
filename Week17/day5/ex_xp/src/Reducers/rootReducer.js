@@ -19,12 +19,16 @@ const initialState = {
   ],
 };
 
-export const rootReducer = (state = initialState, actions={}) => {
+export const rootReducer = (state = initialState, actions = {}) => {
   switch (actions.type) {
-      case "DELETE_POST":
+    case "DELETE_POST":
+      const filter = state.posts.filter(
+        (posts) => posts.id !== actions.payload
+      );
+      console.log(filter);
+      return (state = { ...state, posts: filter });
 
-          
-  
-      default: return
+    default:
+      return { ...state };
   }
 };

@@ -18,7 +18,7 @@ class Home extends Component {
                 <div key={id} className="post card">
                   <img src={icon} alt="icon" />
                   <Link
-                    to={"/" + id}
+                    to={"/" + item.id}
                     style={{ color: "#ff6969", fontSize: "16px" }}
                   >
                     {item.title}
